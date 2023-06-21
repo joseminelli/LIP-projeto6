@@ -427,6 +427,10 @@ body {
   }
 }
 @media (max-width: 576px) {
+  #video {
+    margin-left: 5%;
+    margin-top: 50px;
+  }
   #imagenard {
     display: flex;
   }
