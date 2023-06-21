@@ -1,0 +1,531 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+}
+
+html {
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  font-family: "Spartan";
+  text-decoration-style: double;
+  box-sizing: border-box;
+  background-color: #f9eedf;
+}
+
+
+#mobile {
+  display: none;
+  align-items: center;
+}
+
+/* Barra principal*/
+header {
+  background-color: #d4ae9a;
+  color: #fff;
+  padding: 10px;
+}
+#head {
+  display: flex;
+  align-items: center;
+}
+
+#menuItens img {
+  height: 100px;
+  margin-right: 1px;
+}
+
+#menuItens {
+  
+  display: flexbox;
+  align-items: center;
+}
+
+#menuItens li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+
+#menuItens li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+}
+
+#menuItens li a:hover,
+#menuItens li a.active {
+  color: #a81616;
+}
+
+#menuItens li a.active::after,
+#menuItens li a:hover::after {
+  content: "";
+  width: 60%;
+  height: 2px;
+  background: #a81616;
+  position: absolute;
+  bottom: -4px;
+  left: 22px;
+}
+
+#menuItens li a i {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.menu {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menuItens {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menuItens li {
+  margin-right: 20px;
+}
+
+.menuItens li:last-child {
+  margin-right: 0;
+}
+
+.menuItens li a {
+  font-size: large;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.menuItens li a:hover {
+  color: #c83208;
+}
+
+#ytdiv {
+  margin-left: 2%;
+  display: inline-block;
+}
+
+#texto1 h5 {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
+#texto1 {
+  width: 700px;
+  display: inline-block;
+  vertical-align: 600%;
+  margin-bottom: 15%;
+}
+
+#texto2 h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#texto2 h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+#imagem2 {
+  display: inline-block;
+}
+
+#imagem2 img {
+  height: 450px;
+  width: auto;
+}
+
+/* Estilo para o texto abaixo do vídeo */
+#texto2 h5 {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+/* Estilo para o texto abaixo do vídeo */
+#texto2 h4 {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#texto3 {
+  width: 700px;
+  display: inline-block;
+  vertical-align: 600%;
+  margin-bottom: 15%;
+}
+
+
+#imagem3 {
+  margin-left: 2%;
+  display: inline-block;
+}
+
+#imagem3 img {
+  height: 500px;
+  width: auto;
+}
+
+#texto3 h4 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+#listajogo h5 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+#listajogo  {
+  margin-left:34%;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+#listajogo h6 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+#texto3 h5 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.block1 {
+  margin-right: 2%;
+  margin-left: 2%;
+  border-radius: 10px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 5%;
+  background-color: #bfa394;
+}
+
+#texto2 {
+  vertical-align: 500%;
+  width: 650px;
+  display: inline-block;
+}
+
+#game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#game h2 {
+  text-align: center;
+  margin-bottom: 8%;
+}
+
+#game h3 {
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+/* Definição da fonte e tamanho */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Estilo para o título da seção */
+#Temadasemana h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Estilo para o subtítulo da seção */
+#Temadasemana h2 {
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilo para a seção de vídeo */
+#video {
+  margin-top: 50px;
+}
+
+
+#close {
+  display: none;
+}
+
+#video h3 {
+  margin-bottom: 2%;
+}
+
+/* Estilo para o contêiner do vídeo */
+.yt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo para o título do vídeo */
+.yt h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilo para o vídeo */
+.yt iframe {
+  margin-top: 20px;
+}
+
+/* Estilo para o texto abaixo do vídeo */
+.yt h5 {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+/* Estilo para os subtítulos das tecnologias */
+.yt h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+/* Estilo para os textos das tecnologias */
+.yt h5 {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+/* Estilo para as imagens das tecnologias */
+.yt img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+#infoard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#info {
+  margin: 5%;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.responsive-iframe {
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+#info h4 {
+  text-align: center;
+  font-size: 15px;
+  font-weight:600;
+  margin-top: 40px;
+  margin: 10px 0;
+}
+
+#textoard {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+#textoard h5 {
+  text-align: center;
+  font-size: 15px;
+  font-weight:600;
+  margin-top: 40px;
+  margin: 10px 0;
+}
+
+#imagenard{
+  display: inline-block;
+}
+.quiz{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+#quizmulheres{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+#think{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#imagenard img{
+  height: 300px;
+}
+#thinkercad{
+  display: inline-block;
+}
+
+@media (max-width: 576px) {
+
+  
+#imagenard{
+  display: flex;
+}
+#imagenard img{
+  height: 200px;
+  display: flex;
+}
+
+#thinkercad{
+  display:none;
+}
+
+  .responsive-iframe {
+    width: 90%;
+    height: 190%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  #texto1 {
+    width: 300px;
+  }
+
+  #texto2 {
+    margin-left: 5%;
+    width: 300px;
+  }
+
+  #close {
+    display: initial;
+    font-size: 24px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222;
+  }
+
+  #listajogo  {
+    margin-left:10%;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+
+  #menuItens {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 0px;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background: #d4ae9a;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 80px 0 0 10px;
+  }
+
+  #menuItens li {
+    margin-bottom: 25px;
+  }
+
+  #menuItens.active {
+    right: 0;
+  }
+
+  #mobile {
+    margin-left: 80%;
+    display: inline-block;
+    margin-top: 5%;
+    vertical-align: 140%;
+  }
+
+  #mobile i {
+    color: #1a1a1a;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  #menuItens img {
+    height: 80px;
+    margin-right: 1px;
+  }
+
+  #scratch {
+    margin-left: 5%;
+  }
+
+  #imagem2 img {
+    margin-left: 5%;
+    width: 300px;
+    height: auto;
+  }
+
+  #imagem3 img {
+    margin-left: 5%;
+    width: 300px;
+    height: auto;
+  }
+
+  #texto3 {
+    margin-left: 5%;
+    width: 300px;
+  }
+}
