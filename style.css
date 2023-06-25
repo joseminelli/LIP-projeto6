@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Spartan', sans-serif;
+  font-family: "Spartan", sans-serif;
 }
 
 html {
@@ -17,7 +16,6 @@ html {
   box-sizing: border-box;
   background-color: #f9eedf;
 }
-
 
 #mobile {
   display: none;
@@ -42,7 +40,11 @@ header {
 }
 
 #menuItens {
+<<<<<<< HEAD
   display: flex;
+=======
+  display: flexbox;
+>>>>>>> 53341e4126dece98004071449836fb014e8d7749
   align-items: center;
 }
 
@@ -51,7 +53,6 @@ header {
   padding: 0 20px;
   position: relative;
 }
-
 
 #menuItens li a {
   text-decoration: none;
@@ -181,7 +182,6 @@ header {
   margin-bottom: 15%;
 }
 
-
 #imagem3 {
   margin-left: 2%;
   display: inline-block;
@@ -205,7 +205,10 @@ header {
   font-weight: bold;
   margin-top: 40px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 53341e4126dece98004071449836fb014e8d7749
 #listajogo {
   margin-left: 34%;
   display: inline-block;
@@ -289,7 +292,6 @@ body {
 #video {
   margin-top: 50px;
 }
-
 
 #close {
   display: none;
@@ -397,35 +399,78 @@ body {
 #imagenard {
   display: inline-block;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 53341e4126dece98004071449836fb014e8d7749
 .quiz {
   display: inline-block;
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 53341e4126dece98004071449836fb014e8d7749
 #quizmulheres {
   display: inline-block;
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 53341e4126dece98004071449836fb014e8d7749
 #think {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+<<<<<<< HEAD
 
 #imagenard img {
   height: 300px;
 }
 
+=======
+#imagenard img {
+  height: 300px;
+}
+>>>>>>> 53341e4126dece98004071449836fb014e8d7749
 #thinkercad {
   display: inline-block;
 }
+@media (min-width: 1800px) {
+  #texto1 {
+    width: 1000px;
+  }
 
+  #texto2 {
+    width: 900px;
+  }
+  #info {
+    margin-bottom: 50%;
+  }
+
+  #texto3 {
+    margin-left: 2%;
+    width: 1000px;
+  }
+}
 @media (max-width: 576px) {
+  #video {
+    margin-left: 5%;
+    margin-top: 50px;
+  }
+  #imagenard {
+    display: flex;
+  }
+  #imagenard img {
+    height: 200px;
+    display: flex;
+  }
 
+<<<<<<< HEAD
   #Temadasemana {
     margin-left: -0%;
   }
@@ -448,6 +493,8 @@ body {
     display: flex;
   }
 
+=======
+>>>>>>> 53341e4126dece98004071449836fb014e8d7749
   #thinkercad {
     display: none;
   }
@@ -550,6 +597,7 @@ body {
   #texto3 {
     width: 300px;
   }
+<<<<<<< HEAD
 
   #imagem3 img {
     margin-left: 13%;
@@ -567,3 +615,6 @@ body {
     text-align: justify;
   }
 }
+=======
+}
+>>>>>>> 53341e4126dece98004071449836fb014e8d7749
