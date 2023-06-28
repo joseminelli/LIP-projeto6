@@ -40,11 +40,7 @@ header {
 }
 
 #menuItens {
-<<<<<<< HEAD
   display: flex;
-=======
-  display: flexbox;
->>>>>>> 53341e4126dece98004071449836fb014e8d7749
   align-items: center;
 }
 
@@ -205,10 +201,6 @@ header {
   font-weight: bold;
   margin-top: 40px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 53341e4126dece98004071449836fb014e8d7749
 #listajogo {
   margin-left: 34%;
   display: inline-block;
@@ -399,44 +391,26 @@ body {
 #imagenard {
   display: inline-block;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 53341e4126dece98004071449836fb014e8d7749
 .quiz {
   display: inline-block;
   justify-content: center;
   align-items: center;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 53341e4126dece98004071449836fb014e8d7749
 #quizmulheres {
   display: inline-block;
   justify-content: center;
   align-items: center;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 53341e4126dece98004071449836fb014e8d7749
 #think {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-<<<<<<< HEAD
 
 #imagenard img {
   height: 300px;
 }
 
-=======
-#imagenard img {
-  height: 300px;
-}
->>>>>>> 53341e4126dece98004071449836fb014e8d7749
 #thinkercad {
   display: inline-block;
 }
@@ -459,7 +433,7 @@ body {
 }
 @media (max-width: 576px) {
   #video {
-    margin-left: 5%;
+    margin-left: 0%;
     margin-top: 50px;
   }
   #imagenard {
@@ -470,12 +444,11 @@ body {
     display: flex;
   }
 
-<<<<<<< HEAD
   #Temadasemana {
     margin-left: -0%;
   }
   #video h5{
-    margin-right: 0%;
+    margin-right: 2%;
     margin-left: 18%;
   }
   #video h3{
@@ -493,8 +466,6 @@ body {
     display: flex;
   }
 
-=======
->>>>>>> 53341e4126dece98004071449836fb014e8d7749
   #thinkercad {
     display: none;
   }
@@ -597,7 +568,6 @@ body {
   #texto3 {
     width: 300px;
   }
-<<<<<<< HEAD
 
   #imagem3 img {
     margin-left: 13%;
@@ -610,11 +580,8 @@ body {
     width: 300px;
   }
   #texto3 h5{
-    margin-left: 15%;
+    margin-left: 14%;
     width: 300px;
     text-align: justify;
   }
 }
-=======
-}
->>>>>>> 53341e4126dece98004071449836fb014e8d7749
